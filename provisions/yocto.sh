@@ -6,7 +6,7 @@ apt-get install -y gawk wget git-core diffstat unzip texinfo gcc-multilib \
 
 # Install the repo tool
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > \
-    usr/local/bin/repo
+    /usr/local/bin/repo
 chmod a+x /usr/local/bin/repo
 
 # Sync bsp sources
