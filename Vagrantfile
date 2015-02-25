@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
   end
 
   # Update distro
-  config.vm.provision "shell", inline: "apt-get -y update && apt-get -y upgrade"
+  config.vm.provision "shell", inline: "apt-get update"
   # Prepare yocto environment
   config.vm.provision "shell", path: "provisions/yocto.sh"
 end
